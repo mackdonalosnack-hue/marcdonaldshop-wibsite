@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcdonaldshop | Boutik Telefòn</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #101c35;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #48d6b5;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101c35, #174d67);
+      color: white;
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #20c997;
+      color: #102033;
+      padding: 13px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .products {
+      padding: 45px 7%;
+    }
+
+    .products h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 5px 20px #0000000d;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 210px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #087f5b;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .product .btn {
+      width: 100%;
+    }
+
+    .contact {
+      background: #e8f8f3;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    .contact h2 {
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #101c35;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 29px;
+      }
+
+      header {
+        justify-content: center;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">MARCDONALDSHOP</div>
+
+    <nav>
+      <a href="#accueil">Akèy</a>
+      <a href="#telefonn">Telefòn</a>
+      <a href="#contact">Kontakte nou</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="accueil">
+    <h1>Byenveni nan Marcdonaldshop</h1>
+
+    <p>
+      Pi bon telefòn yo, pi bon sèvis la.
+      Jwenn telefòn ou renmen an jodi a!
+    </p>
+
+    <a href="#telefonn" class="btn">
+      Gade telefòn yo
+    </a>
+  </section>
+
+  <section class="products" id="telefonn">
+    <h2>Telefòn nou yo</h2>
+
+    <p class="subtitle">
+      Chwazi telefòn ou renmen an epi kontakte nou pou pri a.
+    </p>
+
+    <div class="product-grid">
+
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=500&q=80"
+          alt="iPhone"
+        >
+
+        <h3>iPhone 15 Pro Max</h3>
+
+        <p class="price">Mande pri</p>
+
+        <a
+          class="btn"
+          href="https://wa.me/18295576714?text=Bonjou%2C%20mwen%20enterese%20nan%20iPhone%2015%20Pro%20Max"
+          target="_blank"
+        >
+          Achte sou WhatsApp
+        </a>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80"
+          alt="Smartphone"
+        >
+
+        <h3>iPhone 14</h3>
+
+        <p class="price">Mande pri</p>
+
+        <a
+          class="btn"
+          href="https://wa.me/18295576714?text=Bonjou%2C%20mwen%20enterese%20nan%20iPhone%2014"
+          target="_blank"
+        >
+          Achte sou WhatsApp
+        </a>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80"
+          alt="Samsung"
+        >
+
+        <h3>Samsung Galaxy</h3>
+
+        <p class="price">Mande pri</p>
+
+        <a
+          class="btn"
+          href="https://wa.me/18295576714?text=Bonjou%2C%20mwen%20enterese%20nan%20Samsung%20Galaxy"
+          target="_blank"
+        >
+          Achte sou WhatsApp
+        </a>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80"
+          alt="Tablet"
+        >
+
+        <h3>Tablet</h3>
+
+        <p class="price">Mande pri</p>
+
+        <a
+          class="btn"
+          href="https://wa.me/18295576714?text=Bonjou%2C%20mwen%20enterese%20nan%20yon%20tablet"
+          target="_blank"
+        >
+          Achte sou WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Ou vle achte yon telefòn?</h2>
+
+    <p>
+      Kontakte nou sou WhatsApp pou konnen pri,
+      disponiblite ak fason pou achte.
+    </p>
+
+    <a
+      class="btn"
+      href="https://wa.me/18295576714"
+      target="_blank"
+    >
+      Kontakte Marcdonaldshop
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Marcdonaldshop — Tout dwa rezève.</p>
+  </footer>
+
+</body>
+</html>
